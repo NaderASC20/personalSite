@@ -37,7 +37,7 @@ header .logo-text {
 }
 
 header ul {
-    margin-right: 5px;
+    margin-right: 15px;
     float: right;
 }
 
@@ -63,15 +63,15 @@ header ul li a{
 .imagecontainer {
     float: left;
     height: 600px;
-    width: 40vw;
+    width: 45vw;
 }
 
 .aboutMecontainer {
+    overflow: scroll;
     font-size: larger;
     float: right;
-    width: 60vw;
+    width: 55vw;
     height: 600px;
-    border: 3px blue solid;
     background-color: orange;
 
 }
@@ -88,7 +88,7 @@ header ul li a{
     border: 3px blue solid;
     float: left;
     height: 600px;
-    width: 40vw;
+    width: 45vw;
 }
 
 .aboutMecontainer .aboutMe {
@@ -99,31 +99,57 @@ header ul li a{
     margin-right: 20px;
 }
 
+
+.slide2 * {
+    
+}
+
 .slide2 {
     padding-top: 30px;
     border: 3px blue solid;
     display: block;
     width: 100vw;
     background-color: orange;
-    height: 800px;
+    height: 2500px;
+    text-align:  center;
 }
 
-.slide2 .slide2title {
+.slide2 .work{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+
+.slide2 .DoneTitle {
     color: white;
     font-size: 50;
     text-align: center;
-    margin: 0 auto;
+    display: inline-block;
 }
 
 .slide2  * {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: block;
 }
 
+.slide2 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+.slide2 .desc {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
 
-
+.slide2 .work h1 {
+    font-size: 40;
+    text-align: center;
+    margin-bottom: 20px;
+}
 /*------------------footer------*/
 
 footer {
