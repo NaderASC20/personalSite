@@ -101,7 +101,7 @@ header ul li a{
 
 
 .slide2 * {
-    
+    overflow-x: hidden;
 }
 
 .slide2 {
