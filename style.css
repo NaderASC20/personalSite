@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*------------------Header&Data-----------------*/
+
+* {
+    font-family: 'M PLUS Rounded 1c';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+body {
+    display: block;
+    background:lightgray;
+    overflow-y: scroll;
+}
+header {
+    position: fixed;
+    margin: 0;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    padding-right: 18px;
+    background-color: blue ;
+}
+header .logo {
+    width: 100vw;
+    border: 1px solid orange;
+}
+
+header .logo-text {
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+    float: left;
+}
+
+header ul {
+    margin-right: 5px;
+    float: right;
+}
+
+header ul li {
+    float: left ;
+}
+
+header ul li a{
+    display: block;
+    padding-left: 90px;;
+
+
+
+    font-size: 32;
+    color:whitesmoke;
+}
+
+/*------------------Body and Slides-----------------*/
+.slide1 {
+    height: 600px;
+    width: 100vw;
+}
+.imagecontainer {
+    float: left;
+    height: 600px;
+    width: 40vw;
+}
+
+.aboutMecontainer {
+    font-size: larger;
+    float: right;
+    width: 60vw;
+    height: 600px;
+    border: 3px blue solid;
+    background-color: orange;
+
+}
+
+.imagecontainer .heyText {
+    text-align: center;
+    -webkit-text-stroke: 1px orange;
+    font-size: 37;
+    color: white;
+
+}
+
+.faceimage {
+    border: 3px blue solid;
+    float: left;
+    height: 600px;
+    width: 40vw;
+}
+
+.aboutMecontainer .aboutMe {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.slide2 {
+    padding-top: 30px;
+    border: 3px blue solid;
+    display: block;
+    width: 100vw;
+    background-color: orange;
+    height: 800px;
+}
+
+.slide2 .slide2title {
+    color: white;
+    font-size: 50;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slide2  * {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+/*------------------footer------*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: blue;
+    width: 100vw;
+}
+footer .footerText {
+    color: white;
+    font-size: 8;
+    float: left;
+    margin-left: 10px;
+}
+
