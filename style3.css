@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-/*------------------Header&Data-----------------*/
-
 * {
     font-family: 'M PLUS Rounded 1c';
     box-sizing: border-box;
@@ -9,7 +5,6 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    color: white;
 }
 body {
     display: block;
@@ -48,64 +43,57 @@ header ul li {
 header ul li a{
     display: block;
     padding-left: 90px;;
-
-
-
     font-size: 32;
     color:whitesmoke;
 }
-/*------------------Body and Slides-----------------*/
-.slide1 {
-    height: 100vh;
+
+/*------------------Body------*/
+.formContainer {
+    padding-top: 150px;
+    height: 600px;
     width: 100vw;
-}
-.imagecontainer {
-    float: left;
-    height: 600px;
-    width: 45vw;
+    margin-left: 30px;
+    color: black;
 }
 
-.aboutMecontainer {
+input[type=text] {
+    text-align: center;
     color: black;
-    overflow: scroll;
+    font-size: 20;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;;
+  }
+
+button {
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: cornflowerblue;
     font-size: larger;
-    float: right;
-    width: 55vw;
-    height: 600px;
-    background-color: white;
 
+  }
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
 }
 
-.aboutMe *{
+#message {
+    height: 200px;
+}
+
+h1 {
     color: black;
+    margin-bottom: 10px;
 }
 
-.imagecontainer .heyText {
+.formContainer{
     text-align: center;
-    -webkit-text-stroke: 1px orange;
-    font-size: 37;
-    color: black;
-
-}
-.DoneTitle {
-    color: black
 }
 
-.faceimage {
-    border: 3px blue solid;
-    float: left;
-    height: 600px;
-    width: 45vw;
-}
 
-.aboutMecontainer .aboutMe {
-    color: black;
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-
-}
 
 /*------------------footer------*/
 
@@ -121,4 +109,3 @@ footer .footerText {
     float: left;
     margin-left: 10px;
 }
-

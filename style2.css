@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-/*------------------Header&Data-----------------*/
-
 * {
     font-family: 'M PLUS Rounded 1c';
     box-sizing: border-box;
@@ -9,7 +5,6 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    color: white;
 }
 body {
     display: block;
@@ -18,12 +13,11 @@ body {
 }
 header {
     position: fixed;
-    margin: 0;
-    padding-bottom: 18px;
     padding-top: 10px;
     padding-right: 18px;
     background-color: blue ;
 }
+
 header .logo {
     width: 100vw;
     border: 1px solid orange;
@@ -54,58 +48,67 @@ header ul li a{
     font-size: 32;
     color:whitesmoke;
 }
-/*------------------Body and Slides-----------------*/
-.slide1 {
-    height: 100vh;
-    width: 100vw;
-}
-.imagecontainer {
-    float: left;
-    height: 600px;
-    width: 45vw;
+
+
+.slide2 * {
+    overflow-x: hidden;
 }
 
-.aboutMecontainer {
-    color: black;
-    overflow: scroll;
-    font-size: larger;
-    float: right;
-    width: 55vw;
-    height: 600px;
-    background-color: white;
-
-}
-
-.aboutMe *{
-    color: black;
-}
-
-.imagecontainer .heyText {
-    text-align: center;
-    -webkit-text-stroke: 1px orange;
-    font-size: 37;
-    color: black;
-
-}
-.DoneTitle {
-    color: black
-}
-
-.faceimage {
+.slide2 {
+    padding-top: 65px;
     border: 3px blue solid;
-    float: left;
-    height: 600px;
-    width: 45vw;
+    display: block;
+    width: 100vw;
+    background-color: white;
+    height: 2500px;
+    text-align:  center;
 }
 
-.aboutMecontainer .aboutMe {
+.slide2 .work{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+
+.slide2 .DoneTitle {
     color: black;
+    font-size: 50;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-
+    display: inline-block;
 }
+
+.slide2  * {
+    display: block;
+}
+
+.slide2 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+.slide2 .desc {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.slide2 .work h1 {
+    font-size: 40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 /*------------------footer------*/
 
@@ -121,4 +124,3 @@ footer .footerText {
     float: left;
     margin-left: 10px;
 }
-
